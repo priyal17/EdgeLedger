@@ -1,0 +1,30 @@
+@media(max-width:768px){
+  .navbar {
+    flex-direction:column;
+    height:120px;
+    padding:20px;
+  }
+
+  .icon-container {
+    flex-direction: column;
+  }
+
+  .two-divisions {
+    flex-wrap:wrap;
+  }
+
+  .case-row1, .case-row2{
+    flex-direction:column;
+  }
+
+
+  .team-photo-row {
+    flex-direction : column;
+  }
+
+  .team-photo-row .team-photo img {
+    width: 70%;
+  }
+  
+
+}

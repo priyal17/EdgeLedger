@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edge Leger Blogs</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/utilities.css">
+  <link rel="stylesheet" href="./css/media.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+</head>
+<body>
+  <header class="hero blog">
+    <div id="navbar" class="navbar top">
+      <h1 id="logo">
+        <span class="text-primary"><i class="fas fa-book-open"></i> Edge</span> Ledger 
+       </h1>
+       <ul>
+         <li>
+            <a href="index.html">Home</a>
+         </li>
+         <li>
+            <a href="index.html#icons">About</a>
+         </li>
+         <li>
+            <a href="index.html#cases">Cases</a>
+         </li>
+         <li>
+            <a href="index.html#blog">Blog</a>
+         </li>
+         <li>
+            <a href="index.html#contact">Contact</a>
+         </li>
+       </ul>
+    </div>
+    <div class="content">
+      <h1>Blog</h1>
+      </div>
+  </header>
+
+  <main>
+    <article id="blogs">
+      <div class="two-divisions">
+        <div class="division">
+          <div class="division-1">
+            <img src="/img/blog/blog1.jpg" alt="">
+          </div>
+        </div>
+        <div class="division">
+          <div class="division-2 bg-light">
+            <h2 class="primary-heading">Blog Post One</h2>
+            <p><i class="fas fa-user"></i> Posted by <strong>John Doe</strong> | April 19 2020</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et vitae, ea itaque totam placeat doloribus, incidunt molestias consequatur voluptatibus fugit culpa tempore vero tempora a eveniet provident, optio impedit! Possimus vel delectus, nam suscipit repellendus facilis amet illo iusto soluta?</p>
+            <a href="post.html" class="btn btn-dark"> <i class="fas fa-chevron"></i> Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="two-divisions reverse">
+        <div class="division">
+          <div class="division-1">
+            <img src="/img/blog/blog2.jpg" alt="">
+          </div>
+        </div>
+        <div class="division">
+          <div class="division-2 bg-dark">
+            <h2 class="primary-heading">Blog Post Two</h2>
+            <p><i class="fas fa-user"></i> Posted by <strong>John Doe</strong> | April 19 2020</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et vitae, ea itaque totam placeat doloribus, incidunt molestias consequatur voluptatibus fugit culpa tempore vero tempora a eveniet provident, optio impedit! Possimus vel delectus, nam suscipit repellendus facilis amet illo iusto soluta?</p>
+            <a href="post.html" class="btn btn-outline"> <i class="fas fa-chevron"></i> Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="two-divisions">
+        <div class="division">
+          <div class="division-1">
+            <img src="/img/blog/blog3.jpg" alt="">
+          </div>
+        </div>
+        <div class="division">
+          <div class="division-2 bg-light">
+            <h2 class="primary-heading">Blog Post Three</h2>
+            <p><i class="fas fa-user"></i> Posted by <strong>John Doe</strong> | April 19 2020</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et vitae, ea itaque totam placeat doloribus, incidunt molestias consequatur voluptatibus fugit culpa tempore vero tempora a eveniet provident, optio impedit! Possimus vel delectus, nam suscipit repellendus facilis amet illo iusto soluta?</p>
+            <a href="post.html" class="btn btn-dark"> <i class="fas fa-chevron"></i> Read More</a>
+          </div>
+        </div>
+      </div>
+    </article>
+  </main>
+  
+  
+  <footer class="footer bg-dark">
+    <div class="social-media">
+      <a href="#">
+        <i class="fab fa-facebook fa-2x"></i>
+      </a>
+      <a href="#">
+        <i class="fab fa-twitter fa-2x"></i>
+      </a>
+      <a href="#">
+        <i class="fab fa-youtube fa-2x"></i>
+      </a>
+      <a href="#">
+        <i class="fab fa-linkedin fa-2x"></i>
+      </a>
+    </div>
+      <p>Copyright &copy 2020 - EdgeLedger</p>
+  </footer>
+
+  <script>
+
+
+    let navbar = document.getElementById('navbar');
+    window.onscroll = function(){
+      if(window.pageYOffset>100){
+        navbar.classList.remove('top');
+      }
+      else{
+        navbar.classList.add('top');
+      }
+    }
+  </script>
+</body>
+</html>
